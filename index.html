@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Profile Card</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="card">
+            <div class="card-background"></div>
+            <header class="card-header">
+                <div class="profile-image-wrapper">
+                    <img src="img/WhatsApp Image 2025-05-26 at 14.51.54.jpeg" alt="Huseyn's profile photo" class="profile-image">
+                </div>
+                <div class="header-text">
+                    <h1>Huseyn Akberov</h1>
+                    <h2>Electrical Engineer</h2>
+                </div>
+            </header>
+
+            <section class="card-content">
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis vitae, itaque
+                    molestias nostrum id rem? Esse provident velit deleniti?</p>
+            </section>
+
+            <footer class="card-footer">
+                <nav class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </nav>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="3" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
